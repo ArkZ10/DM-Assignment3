@@ -76,7 +76,7 @@ pip install numpy pandas scipy scikit-learn lightgbm torch
 ### 2. Data
 
 The competition data must be present at
-`nycu-data-mining-assignment-3/` (already included in this repo), containing
+`nycu-data-mining-assignment-3/` (Need to be uploaded to this repo root), containing
 the `train/`, `test/` directories and `sample_submission.csv`. No other setup
 is required — all paths used by the code are relative to the repo root.
 
