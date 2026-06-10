@@ -49,7 +49,7 @@ LB progression from the tuned 86-feature baseline to the final submission:
 ├── archive/                  # superseded experiments and intermediate submissions
 ├── cache/                    # cached features/embeddings used by some scripts
 ├── figures/                  # figures used in report.pdf
-├── nycu-data-mining-assignment-3/  # competition data (train/test, sample_submission.csv) ---> Need to be uploaded here
+├── nycu-data-mining-assignment-3/  # competition data (train/test, sample_submission.csv) ---> Need to be uploaded
 ├── submission_pseudo_aug.csv      # final submission (LB 0.8061)
 └── tuned_params.json          # Optuna-tuned LightGBM hyperparameters
 ```
