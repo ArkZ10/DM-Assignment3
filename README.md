@@ -30,10 +30,6 @@ LB progression from the tuned 86-feature baseline to the final submission:
 | + Pseudo-labeling (2-pass, threshold 0.82) | 0.8044 | +0.0086 |
 | + Pseudo-label augmentation + 7-member Pass 2 (**final**) | **0.8061** | +0.0017 |
 
-See [report.pdf](report.pdf) / [report.tex](report.tex) for the full writeup
-(preliminary analysis, feature engineering, temporal alignment, and ablation
-study).
-
 ## Repository Structure
 
 ```
@@ -53,11 +49,9 @@ study).
 ├── archive/                  # superseded experiments and intermediate submissions
 ├── cache/                    # cached features/embeddings used by some scripts
 ├── figures/                  # figures used in report.pdf
-├── nycu-data-mining-assignment-3/  # competition data (train/test, sample_submission.csv)
+├── nycu-data-mining-assignment-3/  # competition data (train/test, sample_submission.csv) ---> Need to be uploaded here
 ├── submission_pseudo_aug.csv      # final submission (LB 0.8061)
 ├── tuned_params.json          # Optuna-tuned LightGBM hyperparameters
-├── audit_report.md            # preliminary data audit output
-└── report.tex / report.pdf
 ```
 
 ## How to Run
